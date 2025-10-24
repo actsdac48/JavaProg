@@ -11,17 +11,18 @@ public class LargestNumber {
         int b = sc.nextInt();
 
         System.out.print("Enter third number: ");
-        int c = sc.nextInt();
+        int d = sc.nextInt();
 
         int largest;
 
-        if (a >= b && a >= c)
+        if (a >= b && a >= d)
             largest = a;
-        else if (b >= a && b >= c)
+        else if (b >= a && b >= d)
             largest = b;
         else
-            largest = c;
+            largest = d;
 
         System.out.println("The largest number is: " + largest);
     }
+
 }
